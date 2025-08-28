@@ -11,10 +11,10 @@ Serverless image processing application enables users to upload images to an S3 
 - **Serverless Architecture:** Entirely built on AWS serverless services, enabling auto-scaling.
 - **Event-Driven Architecture:** Lambda functions are triggered only when needed - API request, or S3 bucket addition event - , reducing costs.
 - **Cost-Effectiveness:** Pay only for usage with no need for managing infrastructure.
-- **Metadata tracking:** storing metadata for all uploaded images into DynamoDB.
+- **Metadata tracking:** Storing metadata for all uploaded images into DynamoDB.
 - **Scalability:** Automatically handles traffic spikes without performance reduction.
 - **Security:** AWS IAM provides fine-grained access control.
-- **IaaC:** providing reusability and disaster recovery capabilities.
+- **IaaC:** Providing reusability and disaster recovery capabilities.
 
 # Architecture Diagram
 ![Architecture Diagram](./AWS_Serverless_Image_processing_S3_APIGateway_Lambda_SystemDesign.png
